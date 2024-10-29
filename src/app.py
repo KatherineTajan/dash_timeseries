@@ -63,6 +63,8 @@ app = dash.Dash(
     external_scripts=['https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML']
 )
 
+server = app.server
+
 # Códificación de la imagen
 home1 = 'assets/download.png'
 with open(home1, 'rb') as image_file:
